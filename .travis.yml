@@ -1,4 +1,4 @@
 language: r
 
 script: 
-- Rscript -e 'test.r'
+- Rscript test.r
