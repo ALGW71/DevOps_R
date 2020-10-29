@@ -1,3 +1,4 @@
 language: r
-cache: packages
-script: Rscript test.r
+
+script: 
+- Rscript -e 'test.r'
