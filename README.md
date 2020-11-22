@@ -9,7 +9,7 @@ A repo to learn basic CI/CD pipelines.
 * On pushing to GitHub: 
     - the code must be linted, checked and run in DEV.
     - upon success the code is run in TEST using test data and longer more intense processes.
-    _ following that success the code is passed to DEV and specific tests are run there (is this a place for final tests?).
+    - following that success the code is passed to DEV and specific tests are run there (is this a place for final tests?).
     
 ## Questions I have about Docker containers and Jenkins.
 * Is it a docker "image" or "container" that is being run?
