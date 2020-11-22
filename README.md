@@ -17,6 +17,8 @@ A repo to learn basic CI/CD pipelines.
 * If Jenkins sits inside a Docker container - how does it reach outside of itself and spin up Docker containers?
 
 ## To Read:
-https://itnext.io/docker-inside-docker-for-jenkins-d906b7b5f527
-https://technology.riotgames.com/news/putting-jenkins-docker-container
-https://www.jenkins.io/doc/book/installing/docker/
+> https://itnext.io/docker-inside-docker-for-jenkins-d906b7b5f527
+
+> https://technology.riotgames.com/news/putting-jenkins-docker-container
+
+> https://www.jenkins.io/doc/book/installing/docker/
