@@ -22,3 +22,20 @@ A repo to learn basic CI/CD pipelines.
 > https://technology.riotgames.com/news/putting-jenkins-docker-container
 
 > https://www.jenkins.io/doc/book/installing/docker/
+
+> https://stackoverflow.com/questions/32163955/how-to-run-shell-script-on-host-from-docker-container
+
+> https://www.educative.io/edpresso/what-is-the-docker-add-command
+
+## Current thoughts
+* Have Jenkins on the host system - the developer for example will have Jenkins on their own computer.
+* Have Docker on the host system.
+* The CI/CD pipeline should initiate the docker container with the Docker file in the repo.
+* The GitHub repo should be cloned onto that container.
+* The R/Python versions and required packages should be detailed in the code - and installed on the container.
+* Linting and basic code tests should take place.
+* Larger tests should take place using test data within an Amazon S3 bucket (how do you access this without including a password in the code).
+
+## Future
+* Expand the process using AWS and cloud formation scripts.
+* Expand the process with Kubernetes.
