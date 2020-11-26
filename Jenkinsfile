@@ -15,7 +15,6 @@ pipeline {
             steps {
                 sh 'docker exec -i ts bash'
                 sh 'pwd; ls -l'
-                sh 'cd /data/'
                 sh 'node --version'
                 sh 'svn --version'
                 sh 'Rscript test.r'
