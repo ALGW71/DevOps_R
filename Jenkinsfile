@@ -7,7 +7,7 @@ pipeline {
                 sh 'pwd'
                 sh 'ls -l'
                 sh 'docker build --tag test_enviro .'
-                sh 'docker run --publish 8000:8080 --detach --name ts test_enviro'
+                sh 'docker run -dit --name ts test_enviro'
             }
         }
         
