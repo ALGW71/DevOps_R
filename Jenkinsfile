@@ -13,7 +13,7 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh 'docker exec -it ts bash'
+                sh 'docker exec -i ts bash'
                 sh 'pwd; ls -l'
                 sh 'cd /data/'
                 sh 'node --version'
