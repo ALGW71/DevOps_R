@@ -39,3 +39,10 @@ A repo to learn basic CI/CD pipelines.
 ## Future
 * Expand the process using AWS and cloud formation scripts.
 * Expand the process with Kubernetes.
+
+## Demo ideas
+* Live data analysis.
+* Deploy a live change and watch results change live.
+* System must be online.
+* Seemless change.
+* Red flag - something wrong - update on way.
