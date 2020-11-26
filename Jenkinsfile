@@ -14,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'docker exec -i ts ls -l'
-                sh 'docker exec -i ts data/Rscript test.r'
+                sh 'docker exec -i ts Rscript data/test.r'
             }
         }
         
