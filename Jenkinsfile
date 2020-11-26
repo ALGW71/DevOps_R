@@ -24,7 +24,8 @@ pipeline {
         
         stage('Shutdown') {
             steps {
-            sh 'docker rm --force ts'
+                sh 'docker container stop ts'
+                sh 'docker rm --force ts'
             }
         }
     }
