@@ -13,10 +13,8 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh 'docker exec -i ts bash'
-                sh 'pwd; ls -l'
-                sh 'Rscript test.r'
-                sh 'exit'
+                sh 'docker exec -i ts ls -l'
+                sh 'docker exec -i ts data/Rscript test.r'
             }
         }
         
