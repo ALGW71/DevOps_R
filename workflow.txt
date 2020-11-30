@@ -1,0 +1,14 @@
+# Blue ocean image is already set up.
+
+# Start the day by running the image on a container on the jenkins network.
+# 1.
+# first run the docker image that is on the jenkin network and allows docker within the jenkins docker
+docker run --name jenkins-docker --rm --detach --privileged --network jenkins --network-alias docker --env DOCKER_TLS_CERTDIR=/certs --volume jenkins-docker-certs:/certs/client --volume jenkins-data:/var/jenkins_home docker:dind
+# 2.
+# then run the jenkins blue ocean image on the same network
+docker run --name jenkins-blueocean --rm --detach --network jenkins --env DOCKER_HOST=tcp://docker:2376 --env DOCKER_CERT_PATH=/certs/client --env DOCKER_TLS_VERIFY=1 --volume jenkins-data:/var/jenkins_home --volume jenkins-docker-certs:/certs/client:ro --publish 8080:8080 --publish 50000:50000 myjenkins-blueocean:1.1
+
+docker run -dit
+-d detach and run in the background
+-i interactive
+-t allocate a putty terminal
