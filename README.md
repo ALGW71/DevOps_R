@@ -27,6 +27,8 @@ A repo to learn basic CI/CD pipelines.
 
 > https://www.educative.io/edpresso/what-is-the-docker-add-command
 
+> https://stackoverflow.com/questions/54437030/how-can-i-create-a-docker-image-to-run-both-python-and-r
+
 ## Current thoughts
 * Have Jenkins on the host system - the developer for example will have Jenkins on their own computer.
 * Have Docker on the host system.
