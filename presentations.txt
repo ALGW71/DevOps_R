@@ -1,0 +1,104 @@
+
+
+########## SETUP ########## 
+
+>>>> TEAM OF DEVELOPERS (ALEX & MARTIN & JAMES)
+
+>>>> WORKING ON CODE
+
+>>>> KEPT IN A REPOSITORY IN GITHUB
+
+>>>> CUSTOMERS USE THE CODE TO ANALYSE DATA
+
+>>>> UPDATES TO THE CODE MUST BE TESTED BEFORE GOING ONTO THE CLIENT SYSTEMS
+
+>>> IMPORT TO:
+		1. KEEP THE CODE RUNNING.
+
+		2. MAKES SURE RESULT ARE ACCURATE.
+
+		3. NOT CRASH THE CUSTOMER SYSTEMS
+
+
+
+
+
+
+
+
+
+
+
+########## PROBLEMS ########## 
+
+1. DID WE RUN ALL THE TESTS ON THE CODE (20 test scripts)?
+
+	Did all the tests pass?
+
+
+2. ARE ALL OUR SYSTEMS THE SAME (OPERATING SYSTEMS, UPDATES, CODE, ENVIRONMENT)
+
+	Are they the same as our client systems?
+
+3. DETAILS OF ALL THE TEST AND CHANGES TO THE TEST CODE NOT CONTROLLED...
+
+	How do you know you ran the same tests as last time?
+		Did someone change my test script?
+			
+
+
+
+
+
+
+
+
+
+
+########## DREAM ########## 
+
+> REMOVE HUMAN ERROR
+
+> VIEW & CONTROL THE STEPS
+
+> CONTROLLED ENVIROMENT
+
+> SEE ALL STEPS AND CHANGES
+
+
+
+
+
+
+
+
+
+
+
+
+########## SOLUTION ########## 
+
+> AUTOMATION - Jenkins, TravisCI, GitHub-Actions, GitLab-Runner.
+
+
+> INFRASTRUCTURE (PIPELINES,TEST-SCRIPTS)... AS CODE (SOURCE CONTROL MANAGEMENT)
+
+>>>>>>>>> "See the testing steps"
+
+		YAML, DOCKERFILE, JENKINSFILE
+
+>>>>>>>>> "Highlight changes to the testing steps"  
+
+		Git
+
+>>>>>>>>> "Control all environments and tests in one place."
+
+
+
+
+
+
+
+
+
+
